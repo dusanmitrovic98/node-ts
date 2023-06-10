@@ -1,7 +1,5 @@
-import { helloWorld } from "../utility/hello-world.js";
+import dotenv from "dotenv";
 
-function app(): void {
-  helloWorld();
-}
+async function app(): Promise<void> {}
 
 export default app;
